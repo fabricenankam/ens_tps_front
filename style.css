@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+}
+
+main{
+    margin-left: 15px;
+}
+
+.nav-st{
+    background-color: rgb(235, 198, 103);
+    font-size: 20px;
+    color: blue;
+    height: 110px;
+    
+}
+
+.cont{
+    margin-left: 85%;
+}
+
+.cont a{
+    margin-right: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+/*a:visited{
+    background-color: red;
+}*/
+
+.flexbox ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;  
+
+}
+
+.flexbox li{
+    list-style: none;
+}
+
+.nav-st span{
+    font-size: 25px;
+}
+
+.nav-1{
+    text-align: center;
+    margin-top: -10px;   
+}
+
+.nav-2{
+   margin-top: 20px;
+}
+
+.nav-1 input{
+    color: blanchedalmond;
+    font-size: 20px;
+    background-color: rgba(59, 59, 249, 0.755);
+    border-radius: 5px;
+    text-transform: uppercase;
+
+}
+
+.nav-1 input:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+.flexbox1 a:hover, .nav-st a:hover{
+   color: green;
+}
+
+h1{
+color: blue;
+text-decoration: underline;
+text-align: center;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.flexbox div{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: rgba(241, 205, 114, 0.805);
+}
+
+.flexbox1 {
+    display: flex;
+    justify-content: space-around;
+   margin-top: 80px;
+}
+
+.flexbox2{
+display: flex;
+justify-content: space-between;
+margin-right: 30px;
+margin-left: 10px;
+}
+
+footer span, .flexbox1 span{
+    font-weight: bold;
+}
+
+.flexbox1 li{
+    list-style: none;
+    color: blue;
+    width: 200px;
+    height: 30px;
+}
+
+.fa {
+    padding: 10px;
+  font-size: 10px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  }
+
+  .fa-facebook, .fa-twitter, .fa-github {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .flexbox2 a{
+    margin-bottom: 10px;
+  }
+
+    

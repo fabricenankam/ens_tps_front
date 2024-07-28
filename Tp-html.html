@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tp_html</title>
+    <link rel="shortcut icon" href="./html-logo.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="nav-st">
+        <div class="cont">
+          <a href="index.html">Accueil</a>
+          <a href="mailto:fanas009@yahoo.fr">Contact</a>
+        </div>
+
+        <div class="flexbox">
+          <ul>
+            <li><a href="index.html">précedent</a></li>
+            <li><a href="tp-css.html">suivant</a></li>
+          </ul>
+        </div>
+        <div>
+          <nav class="nav-1">
+            <a href="Tp-html.html"><input type="button" value="tp-html" /></a>
+            <a href="tp-css.html"><input type="button" value="tp-css" /></a>
+            <a href=""><input type="button" value="tp-page-codeurs" /></a>
+            <a href=""><input type="button" value="tp-js" /></a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1>Tp html</h1>
+      <nav>
+        <!--UL = unordered list-->
+        <ul>
+          <li>Accueil</li>
+          <li>Boutique</li>
+          <li><a href="#form">Formulaire</a></li>
+        </ul>
+      </nav>
+
+      <header>
+        <!--un seul h1 par page(bonne pratique)-->
+        <h1>Ceci est le titre principal</h1>
+        <p>
+          texte classique <em>texte en italique</em>
+          <strong>texte en gras</strong>
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque alias,
+          eveniet repellat, saepe esse dicta quia quam ducimus, enim nam
+          molestias doloribus ipsa. Praesentium architecto nobis, nihil cum
+          dolorum ad.
+        </p>
+      </header>
+
+      <main>
+        <section>
+          <h2>Ordered List</h2>
+          <ol>
+            <li>Fruit</li>
+            <li>Legumes</li>
+            <li>tubercules</li>
+          </ol>
+        </section>
+
+        <section>
+          <h3>Image en html</h3>
+          <img
+            src="./assets/images/IMG_20.jpg"
+            height="200"
+            width="300"
+            alt="image d'un gorille"
+          />
+
+          <div>
+            <h4>Les tableaux</h4>
+            <table border="3" style="text-align: center">
+              <tr>
+                <th>colonne 1</th>
+                <th>colonne 2</th>
+                <th>colonne 3</th>
+              </tr>
+
+              <tr>
+                <td rowspan="2">cel 1</td>
+                <td>cel 2</td>
+                <td>cel 3</td>
+              </tr>
+              <tr>
+                <td colspan="2">cel 4</td>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <h5><span>&rarr;</span>Les liens</h5>
+            <a href="https://htmlcheatsheet.com" target="_blank"
+              >HTML Cheat Sheet</a
+            >
+          </div>
+          <div>
+            <h6><i>&#128190;</i>Les vidéos</h6>
+            <video
+              src="./assets/vidéos/VID_20210.mp4"
+              height="250"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+        </section>
+
+        <section id="form">
+          <h2>Les formulaires</h2>
+          <form action="">
+            <!--input de type texte-->
+            <label for="name">Nom</label>
+            <input type="text" id="name" placeholder="Entrez votre nom" />
+            <br /><br />
+            <!--input de type number-->
+            <label for="age">Age</label>
+            <input
+              type="number"
+              id="age"
+              placeholder="Entrez votre age"
+              value="18"
+            />
+            <br /><br />
+
+            <label for="gender">Genre</label>
+            <select id="gender">
+              <option value="Masculin">Masculin</option>
+              <option selected="selected" value="Feminin">Feminin</option>
+            </select>
+            <br /><br />
+            <!--input de type radio-->
+            <div>
+              <input type="radio" name="type" id="human" checked />
+              <label for="human">Humain</label>
+              <input type="radio" name="type" id="human" />
+              <label for="animal">Animal</label>
+              <input type="radio" name="type" id="human" />
+              <label for="plant">Plante</label>
+            </div>
+            <br />
+
+            <textarea
+              placeholder="Saisissez votre message..."
+              cols="30"
+              rows="10"
+            ></textarea>
+            <br />
+            <!--input de type checkbox-->
+            <input type="checkbox" id="avis" />
+            <label for="avis">site difficile à naviguer</label>
+            <input type="checkbox" id="avis" />
+            <label for="avis">ameliorer la qualité des images</label>
+            <input type="checkbox" id="avis" />
+            <label for="avis">diminuer les publicités</label>
+            <br /><br />
+            <input type="submit" value="valider" />
+          </form>
+          <br />
+          <button>ceci est un bouton</button>
+        </section>
+      </main>
+      <br />
+      <!--Mail et envoi de fichier-->
+      <footer>
+        <a href="mailto:fanas009@yahoo.fr">Contactez-moi!</a> <br />
+        <a href="./notice.txt" download="Notice">Télécharger la notice</a>
+      </footer>
+    </main>
+
+    <footer>
+      <div>
+        <div class="flexbox1">
+          <div>
+            <h3>Adresse Fabrice NANKAM</h3>
+            <ul>
+              <li>Yaoundé-Cameroun</li>
+              <li><span>watsapp :</span> +237 694 70 60 13</li>
+              <li><span>Email :</span> fanas009@yahoo.fr</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Liens utiles</h3>
+            <ul>
+              <li>&#10148;<a href="index.html">Accueil</a></li>
+              <li>&#10148;<a href="mailto:fanas009@yahoo.fr">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Mes travaux pratiques</h3>
+            <ul>
+              <li>&#10148;<a href="Tp-html.html">Tp-html</a></li>
+              <li>&#10148;<a href="tp-css.html">Tp-css</a></li>
+              <li>&#10148;<a href="">Tp-page-codeurs</a></li>
+              <li>&#10148;<a href="">Tp-js</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="flexbox2">
+          <div>©&nbsp;Copyright <span>NANKAM</span>. All right reserved</div>
+          <div>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

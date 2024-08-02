@@ -1,0 +1,20 @@
+.position {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-right: 550px;
+    margin-left: 550px;
+}
+
+.position-1 {
+    border: 15;
+
+}
+
+.background {
+    background-color: rgba(100, 148, 237, 0.671);
+    border-radius: 10px;
+}
+
+.flexbox1 h3{
+    font-size: 18px;
+}

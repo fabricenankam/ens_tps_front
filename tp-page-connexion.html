@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tps Fabrice Nankam</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>tp page de connexion</title>
+    <link rel="shortcut icon" href="./html-logo.png" />
 
     <link
       rel="stylesheet"
@@ -14,7 +14,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style4.css" />
+
+    <link
+      href="./bootstrap-5.0.2-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
   </head>
+
   <body>
     <header>
       <div class="nav-st">
@@ -23,8 +34,14 @@
           <a href="mailto:fanas009@yahoo.fr">Contact</a>
         </div>
 
+        <div class="flexbox">
+          <ul>
+            <li><a href="tp-page-codeurs.html">précedent</a></li>
+            <li><a href="">suivant</a></li>
+          </ul>
+        </div>
         <div>
-          <nav class="nav-1 nav-2">
+          <nav class="nav-1">
             <a href="tp-html.html"><input type="button" value="tp-html" /></a>
             <a href="tp-css.html"><input type="button" value="tp-css" /></a>
             <a href="tp-page-codeurs.html"
@@ -38,20 +55,47 @@
       </div>
     </header>
 
-    <main>
-      <h2>
-        Bienvenu sur la page des travaux pratiques de Fabrice NANKAM avec 10000
-        codeurs
-      </h2>
-      <div class="flexbox">
-        <div>
-          <img src="./assets/images/th.jpeg" alt="image travail de codage" />
-          <img
-            src="./assets/images/th_1.jpeg"
-            alt="image travail collaboratif"
-          />
-        </div>
-      </div>
+    <main class="position">
+      <section>
+        <h2>Connectez-vous à votre compte</h2>
+      </section>
+      <section class="border background">
+        <form action="/action_page.php">
+          <div class="mb-3 mt-3">
+            <label class="form-label" for="uname">Utilisateur:</label>
+            <input
+              class="form-control"
+              type="text"
+              id="uname"
+              name="uname"
+              placeholder="Entrez votre nom d'utilisateur"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="pword">Mot de passe:</label>
+            <input
+              class="form-control"
+              type="password"
+              id="pword"
+              name="pword"
+              placeholder="Entrez votre mot de passe"
+            />
+          </div>
+          <div style="text-align: center">
+            <input
+              class="btn btn-primary position-1"
+              type="submit"
+              value="Se connecter"
+            />
+          </div>
+          <br />
+        </form>
+      </section>
+      <br />
+      <section>
+        <a href="pass_init.html"> mot de passe oublié? </a>
+      </section>
     </main>
 
     <footer>

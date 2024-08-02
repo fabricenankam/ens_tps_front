@@ -83,8 +83,7 @@ text-align: center;
 h2{
     color: blue;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 70px;
+    
 }
 
 .flexbox div{
@@ -113,10 +112,10 @@ footer span, .flexbox1 span{
     font-weight: bold;
 }
 
-.flexbox1 li{
+.flexbox1 li {
     list-style: none;
     color: blue;
-    width: 200px;
+    width: 220px;
     height: 30px;
 }
 

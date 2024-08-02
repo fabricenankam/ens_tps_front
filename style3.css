@@ -1,0 +1,171 @@
+main {
+    margin-right: 180px;
+    margin-left: 180px;
+
+}
+
+.green-color {
+    color: rgb(12, 197, 12);
+    height: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+main div {
+    width: 100%;
+
+}
+
+.div-img img {
+    float: left;
+}
+
+.style-div1{
+    width: 75%;
+    margin-bottom: 90px;
+}
+
+
+p {
+    margin-left: 330px;
+}
+
+
+.blu-1 {
+    color: rgb(57, 57, 247);
+}
+
+main span {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+th,
+td {
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1080px){
+    img{
+        float: none;
+    }
+    p{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:905px){
+    .green-color{
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .style-div1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:760px){
+    .green-color{
+        margin-bottom: 80px;
+        height: 50px;
+    }
+}
+   
+@media screen and (max-width:770px){
+    .green-color{
+        margin-bottom: 55px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .green-color{
+        height: 65px;
+        
+    }
+}
+
+@media screen and (max-width:700px){
+    .green-color{
+        width: 90%;
+        height: 40px;
+        
+    }
+}
+
+@media screen and (max-width:645px){
+    .style-div1{
+        width: 110%;
+        margin-bottom: 20px;
+    }
+    .green-color {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:590px){
+    body{
+        margin-left: 50px;
+    }
+    
+    .green-color{
+        margin-bottom: 55px;
+    }
+
+    img{
+        width: 260px;
+    }
+}
+
+@media screen and (max-width:470px){
+    .green-color{
+        margin-bottom: 65px;
+    }
+
+    th,td{
+        font-size: 15px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:455px){
+    .green-color{
+        margin-bottom: 95px;
+    }
+}
+
+@media screen and (max-width:420px){
+    .green-color{
+        margin-bottom: 115px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .green-color{
+        margin-bottom: 195px;
+    }
+
+    img{
+height: 100px;
+width: 200px;
+    }
+
+    th,td{
+        font-size: 12px;
+        padding: 5px;
+    }
+}

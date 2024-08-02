@@ -15,7 +15,7 @@ main{
 }
 
 .cont{
-    margin-left: 85%;
+    margin-left: 72%;
 }
 
 .cont a{
@@ -115,7 +115,7 @@ footer span, .flexbox1 span{
 .flexbox1 li {
     list-style: none;
     color: blue;
-    width: 220px;
+    width: 320px;
     height: 30px;
 }
 
